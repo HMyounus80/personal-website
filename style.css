@@ -1,0 +1,201 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+h1 span{
+    color: #EC4C7A;
+   
+}
+
+/* START-HEADER-SECTION */
+
+.half-width {
+    width: 40%;
+    margin-left:10% ;
+    float: left;
+}
+#half-width-1 {
+    margin-top: 130px;
+}
+#half-width-2 {
+    margin-top: 130px;
+    margin-left: 0;
+}
+
+.half-width p{
+    color: gray;
+    margin-bottom: 30px;
+}
+img{
+    width: 100%;
+}
+.half-width a{
+    text-decoration: none;
+    
+}
+.link-button {
+    background-color: #EC4C7A;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+section{
+    height: 500px;
+    margin-bottom: 80px;
+}
+.top-header {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+/* END-HEADER-SECTION */
+
+
+/* START-DREAM-AREA-SECTION */
+
+.dream-area {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+/* END-DREAM-AREA-SECTION */
+
+
+/* START-LEATEST-WORK-SECTION */
+
+.work-discription {
+    text-align: center;
+}
+.my-work {
+    width: 30%;
+    float: left;
+    padding: 1%;
+    margin-left: 15px;
+}
+.latest-work {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+/* END-LEATEST-WORK-SECTION */
+
+/* START-CLIENT-AREA-SECTION */
+
+.heading-title {
+    text-align: center;
+    font-weight: 700;
+}
+.client-title {
+    text-align: center;
+    font-weight: 700;
+}
+.client-title p{
+    color: gray;
+}
+.client-discription {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    
+}
+
+/* END-CLIENT-AREA-SECTION */
+
+/* START-SERVICES-AREA-SECTION */
+
+.services-heading {
+    text-align: center;
+    font-weight: 700;
+}
+.line-border {
+    width: 200px;
+    border-bottom:3px solid orange;  
+}
+
+.orange-hightlight{
+    color: orange;
+}
+
+.services-half-width {
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 10px 10px 30px gray;
+    height:200px;
+}
+.services-area {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.services-half-width p {
+    color: gray;
+}
+#web-design {
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+
+}
+#web-development {
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+
+}
+#wordpress {
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,green,yellow);
+    border-image-slice: 1;
+
+}
+
+/* END-SERVICES-AREA-SECTION */
+
+
+/* START-CONTACT-AREA-SECTION */
+
+.contact-us {
+    width: 60%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    margin-top: 90px;
+    padding: 30px;
+    background-color:#EC4C7A;
+    border-radius: 10px;
+}
+.contact-us a {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    
+}
+.client-area {
+  background-image: url("images/footer-bg.png"); 
+  background-repeat: no-repeat;
+}
+
+/* END-CONTACT-AREA-SECTION */
+
+
+/* START-FOOTER-AREA-SECTION */
+
+footer{
+    text-align: center;
+    color: gray;
+    margin-top: 200px;
+}
+/* END-FOOTER-AREA-SECTION */
